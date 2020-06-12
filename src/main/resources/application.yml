@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    open-in-view: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/todo?useSSL=false
+    username: root
+    password: password
