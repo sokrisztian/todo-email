@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Email notification</title>
+</head>
+
+<body>
+<h1>Dear [[${username}]],</h1>
+<p>The following TODOs are due tomorrow:</p>
+<ul>
+    <li data-th-each="todo: ${todos}">
+        [[${todo.description}]]
+    </li>
+</ul>
+</body>
+
+</html>

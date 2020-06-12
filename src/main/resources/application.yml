@@ -5,3 +5,16 @@ spring:
     url: jdbc:mysql://localhost:3306/todo?useSSL=false
     username: root
     password: password
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: <USERNAME>
+    password: <APP PASSWORD>
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+app:
+  mail:
+    from: <EMAIL ADDRESS>
